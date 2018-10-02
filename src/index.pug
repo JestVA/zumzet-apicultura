@@ -4,4 +4,13 @@ block main-page
     var SiteTitle = 'Apicultura Zumzet'
     var MetaDescription = 'Descriere SEO pentru ZUMZET'
     var Keywords = 'apicultura, miere, zumzet'
+
+block menu
+  include _component/menu/menu
+block afla-mai-mult
+  include _component/afla-mai-mult/afla-mai-mult
+
 block zumzet-content
+      include _component/landing-page/acasa
+      include _component/landing-page/despre
+      include _component/landing-page/contact
