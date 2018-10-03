@@ -1,0 +1,12 @@
+.r3-row-padding {
+  padding: 0 8px;
+}
+.r3-third {
+  float:left;
+  width:100%;
+}
+@media (min-width:601px){
+  .r3-third {
+    width: 33.33333%;
+  }
+}

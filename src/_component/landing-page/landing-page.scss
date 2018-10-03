@@ -1,8 +1,9 @@
 .landing-page {
-  min-height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("/asset/image/background.jpg");
 }
 
 .landing-page__wrapper {
@@ -34,3 +35,22 @@
   margin: 4px 2px;
   cursor: pointer;
 }
+
+// not very satisfied with menu results
+
+.navigation__wrapper {
+  display: flex;
+  padding: 0% 10px;
+  background-color: lightblue;
+}
+
+.menu {
+  display: inline-block;
+  text-decoration: none;
+  padding: 5px 10px 5px 5px;
+  font-size: 0.6rem;
+  &:hover {
+    color: white;
+  }
+}
+
