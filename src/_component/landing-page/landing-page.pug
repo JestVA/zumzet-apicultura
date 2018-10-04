@@ -5,9 +5,17 @@ div#navigation
 .navigation
   .navigation__wrapper
     nav.menu
-      a.menu(href="#despre") Despre
-      a.menu(href="#contact") Contact
-
+      table.menu-nav
+        td.left-menu
+          a.menu(href="#despre") Despre
+        td.logo
+          a.logo-link(href="/")
+            img(src="/asset/image/zumzet-logo.svg", width="180px", height="113px")
+        td.right-menu
+          a.menu(href="#contact") Contact
+      
+      
+      
 
 
 div#landing-page
