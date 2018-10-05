@@ -4,19 +4,14 @@
 div#navigation
 .navigation
   .navigation__wrapper
-    nav.menu
-      table.menu-nav
-        td.left-menu
-          a.menu(href="#despre") Despre
-        td.logo
-          a.logo-link(href="/")
-            img(src="/asset/image/zumzet-logo.svg", width="180px", height="113px")
-        td.right-menu
-          a.menu(href="#contact") Contact
-      
-      
-      
-
+    nav.menu-components-mobile
+      .menu-nav
+          .menu-logo
+            a.logo-link(href="/")
+              img(src="/asset/image/zumzet-logo.svg", width="180px", height="113px")
+          .menu-below-logo
+            a.menu-links(href="#despre") DESPRE
+            a.menu-links(href="#contact") CONTACT
 
 div#landing-page
 div.landing-page
@@ -24,5 +19,5 @@ div.landing-page
     h1.landing-page__cta=cta
     h2.landing-page__tagline=tagline
     .landing-page__button
-      a.button(href="/#despre") Afla mai multe!
+      a.button(href="/#despre") Aflã mai multe!
       
