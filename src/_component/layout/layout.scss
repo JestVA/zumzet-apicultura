@@ -28,3 +28,16 @@ hr {
   width: 100px;
   margin: 1.2rem auto 2rem auto;
 }
+
+// smecherie pe hartie
+.despre,
+.footer-links {
+  // aici vrem sa-l oprim pe pos abs
+  position: relative;
+}
+
+.jump-to {
+  // se opreste in primul relative, absolute, fixed sau body
+  position: absolute;
+  top: -163px;
+}
